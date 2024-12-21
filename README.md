@@ -34,12 +34,12 @@
 1. **配置环境：**
 执行以下命令配置环境：
 ```
-conda env create -f environment.yml
+    conda env create -f environment.yml
 ```
 2. **代码运行：**
 执行以下命令运行代码：
 ```
-python eval.py --checkpoint PATH_TO_PRETRAINED_MODEL --save_path results/ --config config/eval.yaml
+    python eval.py --checkpoint PATH_TO_PRETRAINED_MODEL --save_path results/ --config config/eval.yaml
 ```
 3. **结果查看：**
 - 代码所运行的结果保存在```results/```下
